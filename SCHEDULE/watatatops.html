@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Performance Task Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      background-color: #120024;
+    }
+
+    table {
+      width: 100%;
+      height: 100vh;
+      border-collapse: collapse;
+      background-image: url("https://i.pinimg.com/1200x/5e/52/86/5e5286ae416a4b1c04aec1eb589e6dec.jpg"); 
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+
+    td {
+      padding: 20px;
+    }
+
+    .box {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 15px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 25px rgba(190, 0, 255, 0.4);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      position: relative;
+    }
+
+    .box:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 40px rgba(255, 0, 255, 0.7);
+    }
+
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: filter 0.3s ease;
+    }
+
+    .box:hover img {
+      filter: brightness(1.3);
+    }
+
+  
+    .box::after {
+      content: "✨";
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      animation: sparkle 2s infinite ease-in-out alternate;
+      opacity: 0.8;
+    }
+
+    @keyframes sparkle {
+      0% { opacity: 0.3; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.2); }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #ffbdf7;
+      text-shadow: 0 0 15px #ff40ff, 0 0 30px #9d00ff;
+      margin-top: 25px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>★ My Performance Tasks ★</h1>
+  <table>
+    <tr>
+      <td>
+        <a href="SCHEDULE.HTML" class="box"><img src="https://i.pinimg.com/736x/4b/4a/0a/4b4a0a57d859a881da8912bfd872f4cb.jpg" alt="PETA 1"></a>
+        <a href="DC%20SUPES.html" class="box"><img src="https://i.pinimg.com/736x/45/2e/03/452e036401ff639374e61d6ff1a1b226.jpg" alt="PETA 2"></a>
+        <a href="periodictable.html" class="box"><img src="https://i.pinimg.com/736x/d9/40/1a/d9401a0ec964c59f0faab591e0c1ac49.jpg" alt="PETA 3"></a>
+        <a href="JASONTODD.html" class="box"><img src="https://i.pinimg.com/736x/c7/32/ab/c732abfc984a4f8d675148ce1303866d.jpg" alt="PETA 4"></a>
+        <a href="RAWAHAHA.html" class="box"><img src="https://i.pinimg.com/736x/8a/05/5f/8a055ff7866ff787361d09ae5c549c15.jpg" alt="PETA 5"></a>
+        <a href="FAVS.html" class="box"><img src=https://i.pinimg.com/1200x/e3/b9/8e/e3b98e9e44229d29f4bccdcd94364732.jpg alt="PETA 6"></a>
+        <a href="BOXES.html
+" class="box"><img src="https://i.pinimg.com/736x/74/28/a4/7428a4cbf6507d0897d299a658857aa6.jpg" alt="PETA 7"></a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
